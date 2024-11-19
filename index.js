@@ -35,7 +35,7 @@ function playAudio(id){
 }
 
 document.addEventListener('keydown',function(event){
-    let ky = event.key;
+    let ky = event.key.toLowerCase();
     switch(ky){
         case 'k':
             playAudio("kick");
